@@ -187,8 +187,8 @@ body {
   background-color: var(--clr-white);
   margin: 0px 20px;
   position: absolute;
-  left: 500px;
-  top: 10px;
+  left: 650px;
+  top: 30px;
   height: 600px;
   text-align: center;
 }
