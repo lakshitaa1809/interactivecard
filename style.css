@@ -1,0 +1,223 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: var(--clr-lightgrey);
+}
+
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-lightgrey: hsl(270, 3%, 87%);
+  --clr-darkgrey: hsl(279, 6%, 55%);
+  --clr-purple: hsl(278, 68%, 11%);
+}
+.container {
+  width: 1200px;
+  background-color: var(--clr-lightgrey);
+}
+.background {
+  width: 1000px;
+  height: 600px;
+  background-color: var(--clr-purple);
+  margin: 30px 95px;
+}
+.details {
+  width: 750px;
+  height: 600px;
+  background-color: var(--clr-white);
+  margin: 0px 30px;
+  position: absolute;
+  left: 380px;
+}
+.card {
+  position: absolute;
+  left: 350px;
+  top: 180px;
+}
+#name {
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
+.cardno {
+  position: absolute;
+  left: 350px;
+  top: 250px;
+}
+#no {
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
+.exp {
+  margin-top: 5px;
+  position: absolute;
+  left: 350px;
+  top: 310px;
+  display: flex;
+  flex-direction: row;
+}
+#month {
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  left: 0px;
+  top: 30px;
+}
+#year {
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  left: 70px;
+  top: 30px;
+}
+.CVC {
+  position: absolute;
+  left: 170px;
+}
+
+#keyval {
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+}
+.press {
+  margin-top: 10px;
+  position: absolute;
+  left: 350px;
+  top: 410px;
+}
+#click {
+  background-color: var(--clr-purple);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  width: 310px;
+  height: 30px;
+  font-size: 18px;
+}
+.display {
+  position: absolute;
+  top: 80px;
+  right: 700px;
+}
+.display1 {
+  position: absolute;
+  top: 310px;
+  right: 640px;
+}
+#namedis {
+  position: absolute;
+  bottom: 10px;
+  right: 230px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+  justify-content: left;
+}
+#nodis {
+  width: 900px;
+  padding: 0px 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 5px;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+#monthdis {
+  position: absolute;
+  bottom: 10px;
+  left: 280px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+#yeardis {
+  position: absolute;
+  bottom: 10px;
+  left: 300px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+#cvcdis {
+  position: absolute;
+  top: 73px;
+  left: 280px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+#inpno {
+  margin-top: 10px;
+  position: absolute;
+  top: 27px;
+  left: 160px;
+  font-size: 12px;
+}
+#inpmonth {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  font-size: 12px;
+}
+#inpyear {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  font-size: 12px;
+}
+#inpcvc {
+  width: 120px;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  font-size: 12px;
+}
+.finished {
+  width: 684px;
+  border-radius: 5px;
+  background-color: var(--clr-white);
+  margin: 0px 20px;
+  position: absolute;
+  left: 400px;
+  top: 30px;
+  height: 600px;
+  text-align: center;
+}
+.thankyou {
+  margin-top: 150px;
+  margin-left: 80px;
+}
+.finalstage {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.add {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+.con {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 90px;
+  background-color: var(--clr-purple);
+  color: white;
+  border-radius: 5px;
+  width: 310px;
+  height: 30px;
+}
+.front {
+  width: 350px;
+}
+.back {
+  margin-right: 20px;
+  width: 350px;
+}

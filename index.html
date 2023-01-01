@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Interactive card -Challenges</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="background">
+        <form id="myform">
+          <div class="details">
+            <div class="card">
+              <label for="name" id="labelname">CardHolder Name</label><br />
+
+              <input type="text" id="name" placeholder="e.g. Janes" />
+            </div>
+            <div class="cardno">
+              <label for="no" id="labelno">Card Number</label><br />
+
+              <input  id="no" placeholder="1234 5678 9123 0000" />
+              <p id="inpno"></p>
+            </div>
+            <div class="exp">
+              <label for="exp" id="labelexp">EXP.DATE(MM/YY)</label><br />
+              <div class="month">
+                <input type="number" id="month" placeholder="mm" />
+                <p id="inpmonth"></p>
+              </div>
+              <div class="year">
+                <input type="number" id="year" placeholder="yy" />
+                <p id="inpyear"></p>
+              </div>
+              <div class="CVC">
+                <label for="cv" id="labelcvc">CVC</label><br />
+
+                <input type="number" id="keyval" placeholder="e.g. 123" />
+                <p id="inpcvc"></p>
+              </div>
+            </div>
+            <div class="press">
+              <input type="button" id="click" value="Confirm"></input>
+            </div>
+          </div>
+        </form><form id="end">
+          <div class="finished">
+            
+            <img class="thankyou" src="./images/thank.jpg" /><h2 class="finalstage">THANK YOU!</h2>
+            <p class="add">We've added your card details</p>
+            <button class="con" id="con">Continue</button>
+          </div>
+        </form>
+        <div class="displayout">
+          <div class="display">
+            <img class="front"src="./images/bg-card-front.png" />
+            <p id="namedis"></p>
+            <p id="nodis"></p>
+            <p id="monthdis"></p>
+            <p id="yeardis">/</p>
+          </div>
+        </div>
+        <div class="display1">
+          <img  class="back"src="./images/bg-card-back.png" />
+          <p id="cvcdis"></p>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+  <script src="./script.js"></script>
+</html>
