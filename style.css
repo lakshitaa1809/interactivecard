@@ -41,7 +41,7 @@ body {
 }
 .cardno {
   position: absolute;
-  left: 350px;
+  left: 330px;
   top: 250px;
 }
 #no {
@@ -193,21 +193,21 @@ body {
   text-align: center;
 }
 .thankyou {
-  margin-top: 150px;
-  margin-left: 80px;
+  margin-top: 170px;
+  margin-left: 100px;
 }
 .finalstage {
   margin-top: 20px;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 .add {
   margin-top: 20px;
-  margin-left: 90px;
+  margin-left: 120px;
 }
 .con {
   font-size: 18px;
   margin-top: 20px;
-  margin-left: 90px;
+  margin-left: 120px;
   background-color: var(--clr-purple);
   color: white;
   border-radius: 5px;
