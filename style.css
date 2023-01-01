@@ -194,20 +194,20 @@ body {
 }
 .thankyou {
   margin-top: 150px;
-  margin-left: 140px;
+  margin-left: 160px;
 }
 .finalstage {
   margin-top: 10px;
-  margin-left: 160px;
+  margin-left: 180px;
 }
 .add {
   margin-top: 10px;
-  margin-left: 160px;
+  margin-left: 180px;
 }
 .con {
   font-size: 18px;
   margin-top: 10px;
-  margin-left: 160px;
+  margin-left: 200px;
   background-color: var(--clr-purple);
   color: white;
   border-radius: 5px;
