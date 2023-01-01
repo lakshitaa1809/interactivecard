@@ -187,26 +187,26 @@ body {
   background-color: var(--clr-white);
   margin: 0px 20px;
   position: absolute;
-  left: 450px;
+  left: 400px;
   top: 30px;
   height: 600px;
   text-align: center;
 }
 .thankyou {
-  margin-top: 170px;
+  margin-top: 150px;
   margin-left: 100px;
 }
 .finalstage {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 120px;
 }
 .add {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 120px;
 }
 .con {
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 120px;
   background-color: var(--clr-purple);
   color: white;
